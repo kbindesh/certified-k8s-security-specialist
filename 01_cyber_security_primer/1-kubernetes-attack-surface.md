@@ -24,7 +24,7 @@ The K8s attack surface encompasses all potential entry points and vulnerabilitie
    - The application code itself, including third-party libraries and dependencies
    - Secure Software Development Lifecycle (SSDLC), dependency scanning, supply chain security.
 
-## Kubernetes - Common Attack Vectors
+## Kubernetes Common Attack Vectors
 
 - **Unauthorized Access OR API Misconfiguration**
 

@@ -31,10 +31,12 @@
      - Primitives that prevent "Denial of Service" (DoS) attacks from within the cluster by limiting the CPU and memory a namespace or pod can consume
 
 3. Network Security
+
    - As we already know that by default, all pods in a cluster can communicate with each other.
    - Network Policies
      - The primary primitive for defining how groups of pods are allowed to communicate with each other and other network endpoints.
      - They function as a distributed firewall
+
 4. Infrastructure & Data Protection
    - Transport Layer Security (TLS)
      - Kubernetes expects all internal communication (e.g., between the API server and Kubelet, or within the etcd cluster) to be encrypted via TLS
